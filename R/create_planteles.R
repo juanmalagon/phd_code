@@ -1,4 +1,4 @@
-setwd("C:/Users/Juan/Desktop/ftpsaber/4. Saber11/4. ClasificaciÛn de Planteles")
+setwd("/Users/juanmalagon/Desktop/Malagon-Haelermans/ftpdbicfes/4. Saber11/4. ClasificacioÃÅn de Planteles")
 
 require(ggplot2)
 require(dplyr)
@@ -6,9 +6,9 @@ require(dplyr)
 ##################################
 # 2018
 sb11.20182 <- read.table('SB11-CLASIFI-PLANTELES-20182.txt', 
-                 header = TRUE, 
-                 sep='¨',
+                 header = TRUE,
                  fileEncoding = 'UTF-8',
+                 sep='¬¨',
                  quote = "",
                  comment.char = "",
                  strip.white = TRUE,
